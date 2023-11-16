@@ -1,0 +1,46 @@
+
+.sign{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    height: 100vh;
+        flex-direction: column; 
+  
+      
+}
+
+
+
+.submit-btn,.Address{
+
+    width:100%;
+    height:50px;
+    padding: 10px;
+    border: none;
+    background-color :rgb(98, 0, 98);
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor:pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 60px ;
+    border-radius: 10px;
+    border: 1px solid  rgb(98, 0, 98);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+h1{
+    text-align: center;
+    color:rgb(98, 0, 98);
+}

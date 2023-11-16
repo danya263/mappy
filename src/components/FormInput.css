@@ -1,0 +1,50 @@
+ 
+ 
+ 
+ 
+ span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+     display: none;
+ }
+ input:invalid[focused="true"]{
+    border-bottom:1px solid red;
+ }
+ input:invalid[focused="true"] ~span{
+    display: block;
+ }
+ 
+select{
+    width:100%;
+    padding: 15px;
+    margin:5px 0px;
+    border-radius: 5px;
+   
+    font-size: 12px;
+    text-align: center;
+    border :1px  , rgb(98, 0, 98);
+    color:  rgb(98, 0, 98);
+    font-weight: bold;
+    font-size: 12px;
+  
+}
+ 
+
+
+input{
+    padding: 15px;
+    margin:5px 0px;
+   width:100%;
+    border-style: none;
+    border-bottom:1px solid gray;
+    font-size: 16px;
+    
+}
+
+
+
+label{
+font-size: 14px;
+color: gray;
+}
